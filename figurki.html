@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .red {
+        background: red;
+        width: 200px;
+        height: 200px;
+        border: 4px black;
+        border-radius: 25%;
+        position: absolute;
+        transition: all -10deg ease;
+        top: 100px;
+        right: 200px;
+
+      }
+      .red:hover {
+        transform: rotate(-25deg) scale(2);
+      }
+
+      .blue{
+        background: blue;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        position: absolute;
+        transition: all -100deg ease;
+        top: 200px;
+        right: 40px;
+      }
+      .blue:hover {
+        transform:scaleX(2);
+      }
+
+      .black {
+        background: black;
+        width: 30px;
+        height: 300px;
+        border-radius: 20%;
+        position: absolute;
+        transition: all -100deg ease;
+        top: 200px;
+        left: 90px;
+      }
+      .black:hover {
+        transform: rotate(60deg);
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="red">
+
+    </div>
+    <div class="blue">
+
+    </div>
+    <div class="black">
+
+    </div>
+
+  </body>
+</html>
